@@ -26,8 +26,3 @@ def bogo_sort(ls):
             sorted_ls[random_indicies[i]] = ls[i]
 
     return sorted_ls
-
-
-ls = [1, 2, 3, 4, 5]
-not_sorted = [3, 1, 90, 0, 34]
-print(bogo_sort(not_sorted))
